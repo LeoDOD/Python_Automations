@@ -146,7 +146,7 @@ def step_impl(context, html_tag, selector, identifier):
     if html_tag.lower() == 'link' or html_tag.lower() == 'a':
         context.browser.link(kwargs).click()
     elif html_tag.lower() == 'input':
-        context.browser.input(kwargs).click()
+        context.browser.input(kwargs).js_click()
     elif html_tag.lower() == 'button':
         context.browser.button(kwargs).click()
     elif html_tag.lower() == 'image':
