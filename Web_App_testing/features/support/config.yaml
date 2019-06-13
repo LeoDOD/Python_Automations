@@ -1,0 +1,29 @@
+# Here you can create profile that will contain the data needed for all of your testing,
+# That can be MID, MKEYS, credit card, costumer data and so on.
+# It's important to note that we should strive to create multiple Profiles that contain the data
+# for QA, DEV and PROD (if required), so that the regression can be run in different envs without having to come in and
+# rewrite half the automation.
+
+DEV:
+  JIRA: http://localhost:4567
+  URL:
+  Username:
+  Password:
+
+QAS:
+  JIRA: http://localhost:4567
+  URL:
+  Regular User:
+    username: TestingUser
+    password: Paya1234!
+  Temp user:
+    username:
+    password:
+    email:
+
+
+PROD:
+  JIRA: http://localhost:4567
+  MSD: "https://www.sageexchange.com/SEP/Default"
+  MSD_user:
+  MSD_password:

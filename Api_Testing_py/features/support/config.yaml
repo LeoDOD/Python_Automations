@@ -1,0 +1,19 @@
+# Here you can create profile that will contain the data needed for all of your testing,
+# That can be MID, MKEYS, credit card, costumer data and so on.
+# It's important to note that we should strive to create multiple Profiles that contain the data
+# for QA, DEV and PROD (if required), so that the regression can be run in different envs without having to come in and
+# rewrite half the automation.
+DEV:
+  JIRA: http://localhost:4567
+  url: ''
+  Authorization: ''
+
+QA:
+  JIRA: http://localhost:4567
+  url: 'https://hr-bot-1.herokuapp.com'
+  Authorization: ''
+
+PROD:
+  JIRA: http://localhost:4567
+  url: ''
+  Authorization: ''
