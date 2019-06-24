@@ -17,7 +17,7 @@ import re
 import requests
 import uuid
 from behave import use_step_matcher
-from Api_Testing_py.features.support import Config
+from Python.Api_Testing_py.features.support import Config
 
 # -- SETUP: Use cfparse as default matcher
 use_step_matcher('cfparse')

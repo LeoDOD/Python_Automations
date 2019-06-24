@@ -17,13 +17,10 @@ import os
 import re
 import requests
 import uuid
-import json
 from nerodia.browser import Browser
 from selenium.webdriver.chrome.options import Options as chrome_options
-from selenium.webdriver.firefox.options import Options as firefox_options
 from behave import use_step_matcher
-from selenium import webdriver
-from Web_App_testing.features.support import Config
+from Python.Web_App_testing.features.support import Config
 from faker import Factory
 from faker.providers import company, internet
 from guerrillamail import GuerrillaMailSession
