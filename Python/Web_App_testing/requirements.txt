@@ -13,7 +13,7 @@ nerodia==0.14.0
 parse==1.8.4
 parse-type==0.4.2
 temp-mail==0.2
-PyYAML==5.1
+PyYAML==5.4
 requests==2.20.1
 selenium==3.14.1
 six==1.11.0
